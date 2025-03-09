@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="Controls" style="flex-grow: 1; height: 100px; width: 98px;">
+            <ui:Label text="Left click to pick up and drag&#10;Right click to rotate while picked up" emoji-fallback-support="false" style="font-size: 7px; -unity-text-outline-color: rgba(255, 255, 255, 0); -unity-text-outline-width: 0; height: 48px; width: 92px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="WinScreen" enabled="true" style="flex-grow: 1; height: 124px; display: none;">
+            <ui:Label text="Press R to reset" style="-unity-text-align: upper-center; top: 21px; position: absolute; left: 105px; font-size: 10px; color: rgb(250, 250, 250);" />
+            <ui:Label text="YOU WON!!!!" enabled="true" style="-unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;); font-size: 20px; -unity-text-outline-color: rgba(188, 47, 47, 0); -unity-text-outline-width: 0; color: rgb(255, 255, 255); display: flex;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
